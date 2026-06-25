@@ -1,14 +1,34 @@
 {
+  "badge": "♪ 來聽歌哦！",
   "title": "又要等到你喝醉之後才能說愛你",
   "artist": "陳則皞",
-  "tag": "別把過錯全都怪給臺北",
-  "badge": "♪ NOW STREAMING",
-  "cover": "cover.jpg",
+  "tag": "別把過錯全都怪給臺北。",
   "footer": "陳則皞 · 巷弄故事館",
+  "cover": "cover.jpg",
   "links": [
-    { "name": "Spotify",     "url": "https://open.spotify.com/track/10HC8L6Wq5ZM6Opv714cv2", "icon": "♪", "color": "#1DB954" },
-    { "name": "Apple Music",  "url": "https://music.apple.com/tw/album/%E5%8F%88%E8%A6%81%E7%AD%89%E4%BD%A0%E5%96%9D%E9%86%89%E4%B9%8B%E5%BE%8C%E6%89%8D%E8%83%BD%E8%AA%AA%E6%84%9B%E4%BD%A0-single/6779588297", "icon": "⌘", "color": "#fb4c8a" },
-    { "name": "KKBOX",        "url": "https://kkbox.fm/Xz1XHUs", "icon": "K", "color": "#0ec0c0" },
-    { "name": "YouTube",      "url": "https://youtu.be/b2ttOss6-_4", "icon": "▶", "color": "#ff0033" }
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/track/10HC8L6Wq5ZM6Opv714cv2",
+      "icon": "♪",
+      "color": "#1DB954"
+    },
+    {
+      "name": "Apple Music",
+      "url": "https://music.apple.com/tw/album/%E5%8F%88%E8%A6%81%E7%AD%89%E4%BD%A0%E5%96%9D%E9%86%89%E4%B9%8B%E5%BE%8C%E6%89%8D%E8%83%BD%E8%AA%AA%E6%84%9B%E4%BD%A0-single/6779588297",
+      "icon": "⌘",
+      "color": "#fb4c8a"
+    },
+    {
+      "name": "KKBOX",
+      "url": "https://kkbox.fm/Xz1XHUs",
+      "icon": "K",
+      "color": "#0ec0c0"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://youtu.be/b2ttOss6-_4",
+      "icon": "▶",
+      "color": "#ff0033"
+    }
   ]
 }
