@@ -81,10 +81,18 @@
       const a=document.createElement('a'); a.className='btn'; a.href=l.url; a.target='_blank'; a.rel='noopener';
       a.innerHTML = '<span class="ico" style="background:'+(l.color||'#888')+'">'+(l.icon||'♪')+'</span>'
                   + (l.name||'') + '<span class="go">PLAY ›</span>';
+      a.addEventListener('click', function(){
+        if(window.goatcounter && window.goatcounter.count){
+          window.goatcounter.count({ path:'click-'+(l.name||'link').toLowerCase().replace(/\s+/g,'-'), title:(l.name||'')+' 點擊', event:true });
+        }
+      });
       box.appendChild(a);
     });
   }catch(e){ document.getElementById('title').textContent='(載入失敗,檢查 config.json)'; }
 })();
 </script>
+<!-- GoatCounter 訪客/點擊追蹤 → 後台 https://haohao.goatcounter.com -->
+<script data-goatcounter="https://haohao.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
